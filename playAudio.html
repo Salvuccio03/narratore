@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>🎭 Narratore Live</title>
+  <link rel="stylesheet" href="html/style.css" />
+</head>
+<body>
+  <h1>🎙️ Storia in Diretta</h1>
+  <button onclick="enableAudio()">🔊 Attiva Audio</button> <button onclick="resetLog()">🔁 Riparti da capo</button>
+
+  <div id="nowPlaying" class="now-playing">In attesa di elementi...</div>
+  <div id="log" class="log"></div>
+
+  <audio id="player" autoplay muted></audio>
+
+  <script src="html/script.js"></script>
+</body>
+</html>

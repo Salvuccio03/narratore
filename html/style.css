@@ -1,0 +1,52 @@
+body {
+  background-color: #111;
+  color: white;
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+.now-playing {
+  font-size: 2rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #222;
+  border-left: 5px solid #ffc107;
+  transition: background-color 0.3s;
+}
+
+.now-playing.flash {
+  background-color: #4caf50 !important;
+  animation: flash 1s ease-out;
+}
+
+@keyframes flash {
+  0% { background-color: #4caf50; }
+  100% { background-color: #222; }
+}
+
+.log {
+  margin-top: 2rem;
+  border-top: 1px solid #444;
+  padding-top: 1rem;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.entry {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #ffc107;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
