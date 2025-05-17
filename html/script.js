@@ -10,7 +10,8 @@ const audioMap = {
   "Sparo singolo (pistola).mp3": "audio/sapro_singolo.mp3",
   "Raffica di spari (mitraglietta).mp3": "audio/sparo_raffica.mp3",
   "Tosse.mp3": "audio/tosse.mp3",
-  "Vomito.mp3": "audio/Vomito.mp3"
+  "Vomito.mp3": "audio/Vomito.mp3",
+  "Mi son fatto l'amante.mp3": "audio/Fatto_Amante.mp3"
 };
 
 const apiUrl = "https://script.google.com/macros/s/AKfycbweziW6tRNNE3d8M3CPskkJ_602T9C2GTO05woaOYXGHDtse7FFxyD5NJtgDj9Q2qvM/exec";
